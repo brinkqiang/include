@@ -1,2 +1,2 @@
 # include
-C++ only header lib
+C++ header-only lib

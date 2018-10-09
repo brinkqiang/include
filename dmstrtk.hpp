@@ -1,23 +1,6 @@
-/*
- *****************************************************************
- *                     String Toolkit Library                    *
- *                                                               *
- * Author: Arash Partow (2002-2013)                              *
- * URL: http://www.partow.net/programming/strtk/index.html       *
- *                                                               *
- * Copyright notice:                                             *
- * Free use of the String Toolkit Library is permitted under the *
- * guidelines and in accordance with the most current version of *
- * the Common Public License.                                    *
- * http://www.opensource.org/licenses/cpl1.0.php                 *
- *                                                               *
- *****************************************************************
-*/
 
-
-#ifndef INCLUDE_STRTK_HPP
-#define INCLUDE_STRTK_HPP
-
+#ifndef __DMSTRTK_H_INCLUDE__
+#define __DMSTRTK_H_INCLUDE__
 
 #include <algorithm>
 #include <cctype>
@@ -25500,4 +25483,4 @@ static inline std::string data() {
 
 } // namespace strtk
 
-#endif
+#endif // __DMSTRTK_H_INCLUDE__

@@ -4620,15 +4620,15 @@ inline void convert_to_lowercase( std::string& str ) {
                                   str.size() ) ) );
 }
 
-inline std::string as_lowercase( const std::string& str ) {
+inline std::string as_lowercase(const std::string& str) {
     std::string result = str;
-    convert_to_lowercase( result );
+    std::transform(result.begin(), result.end(), result.begin(), ::tolower);
     return result;
 }
 
-inline std::string as_uppercase( const std::string& str ) {
+inline std::string as_uppercase(const std::string& str) {
     std::string result = str;
-    convert_to_uppercase( result );
+    std::transform(result.begin(), result.end(), result.begin(), ::toupper);
     return result;
 }
 
